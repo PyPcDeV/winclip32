@@ -1,3 +1,4 @@
+** THE CODE IS NO LONGER MAINTAINED, PLEASE USE OTHER LIBRARIES**
 This is a small library for _windows OS_ to work with _clipboard data storage_. winclip32 is based on _pywin32_ module.
 https://github.com/PyPcDeV/winclip32
 
