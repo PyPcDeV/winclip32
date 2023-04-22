@@ -16,11 +16,11 @@ https://github.com/PyPcDeV/winclip32
 #### _**Example 2**_
 `import winclip32`  
 `winclip32.set_clipboard_data("unicode_std_text", "Python is beautiful!!!")`  
-`print(winclip32.is_clipboard_data_type_available("bitmapinfo_std_structure"))  # >>> False`  
-`print(winclip32.is_clipboard_data_type_available(13))  # >>> True`
+`print(winclip32.is_clipboard_format_available("bitmapinfo_std_structure"))  # >>> False`  
+`print(winclip32.is_clipboard_format_available(13))  # >>> True`
 #### _**Example 3**_
 `import winclip32`   
-`winclip32.get_clipboard_data_types_info()  # >>> ...`
+`winclip32.get_clipboard_formats_info()  # >>> ...`
 
 ## _**API**_
 
